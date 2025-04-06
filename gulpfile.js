@@ -12,6 +12,8 @@ import runSequence from 'gulp4-run-sequence';
 import scripts from './tasks/scripts.js';
 import serve from './tasks/serve.js';
 import styles from './tasks/styles.js';
+import * as sass from 'sass';
+
 
 // default tasks
 gulp.task('default', (done) => {

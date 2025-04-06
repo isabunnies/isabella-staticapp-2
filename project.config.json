@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
+      "fileId": "1mTomwCS7vSxACxN8Q7ZZc9qN1ZsMKyQUlyC0Fdn5XYw",
       "type": "doc",
-      "name": "library"
+      "name": "blog"
     },
     {
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
@@ -24,6 +24,15 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+      
+    }
+    ,
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }

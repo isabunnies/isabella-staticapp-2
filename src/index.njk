@@ -6,6 +6,20 @@
     <div class="col">
         <h1 class="text-center">A pirate's life is for me</h1>
             <p>Hempen halter mizzenmast deadlights gaff pillage starboard jack lee Blimey draught. Man-of-war piracy black jack sutler Yellow Jack keel provost overhaul execution dock rigging. Log quarterdeck dead men tell no tales red ensign gibbet grog blossom bilge Nelsons folly code of conduct gunwalls.</p>
+            <div class="row">
+            <div class="col-12">
+                <h2>Latest Blog Entries</h2>
+                
+                <ul class="list-unstyled">
+                  {% for blog in blog.blogs %}
+                    <li class="mb-4">
+                      <h3><a href="/blog/{{ blog.slug }}.html">{{ blog.headline }}</a></h3>
+                      <p class="text-muted">{{ blog.date }}</p>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
     </div>
   </div>
 </div>
